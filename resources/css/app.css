@@ -13,8 +13,9 @@ body {
     font-family: 'Noto Sans JP', sans-serif;
     color: var(--japanese-black);
     line-height: 1.7;
-    background: linear-gradient(135deg, #f5f7fa36 0%, #c3cfe25e 100%);
-    min-height: 100vh;
+    background: url('/images/texture-bg.jpg') no-repeat center center fixed !important;
+    background-size: cover !important;
+    min-height: 100vh !important;
 }
 
 .japanese-navbar {
@@ -80,7 +81,7 @@ body {
 /* Japanese-style container with paper texture */
 .japanese-container {
     background-color: var(--japanese-white);
-    background-image: url('/images/washi-texture.png');
+    background-image: url('/images/texture-bg.jpg');
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -170,7 +171,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-image: url('/images/japanese-pattern.jpg');
+    background-image: url('/images/texture-bg.jpg');
     background-size: cover;
     background-position: center;
     color: white;

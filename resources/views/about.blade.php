@@ -10,7 +10,7 @@
         
         <div class="row">
             <div class="col-md-5">
-                <img src="{{ asset('images/profile.jpg') }}" alt="Profile Picture" class="img-fluid mb-4">
+                <img src="{{ asset('images/profile.png') }}" alt="Profile Picture" class="img-fluid mb-4">
             </div>
             <div class="col-md-7">
                 <h3>Backend Developer</h3>
@@ -29,16 +29,14 @@
                 <div class="mt-4">
                     <h4>Education</h4>
                     <ul>
-                        <li>Bachelor's Degree in Computer Science, University Name, 2018-2022</li>
-                        <li>Web Development Bootcamp, Coding Academy, 2022</li>
+                        <li>Web Development, aulab 2024-2025</li>
                     </ul>
                 </div>
                 
                 <div class="mt-4">
                     <h4>Experience</h4>
                     <ul>
-                        <li>Junior Backend Developer, Company Name, 2022-Present</li>
-                        <li>Web Development Intern, Company Name, 2021-2022</li>
+                        <li>no expirience</li>
                     </ul>
                 </div>
             </div>

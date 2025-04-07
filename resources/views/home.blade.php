@@ -16,7 +16,7 @@
         
         <div class="row">
             <div class="col-md-6">
-                <img src="{{ asset('images/programmer.jpg') }}" alt="Backend Developer" class="img-fluid mb-4">
+                <img src="{{ asset('images/profile.png') }}" alt="Backend Developer" class="img-fluid mb-4">
             </div>
             <div class="col-md-6 d-flex flex-column justify-content-center">
                 <h3>Backend Developer</h3>
@@ -45,7 +45,7 @@
         <div class="row">
             <div class="col-md-4">
                 <div class="japanese-card">
-                    <img src="{{ asset('images/project1.jpg') }}" class="japanese-card-img" alt="E-commerce Website">
+                    {{-- <img src="{{ asset('images/project1.jpg') }}" class="japanese-card-img" alt="E-commerce Website"> --}}
                     <div class="japanese-card-body">
                         <h5 class="japanese-card-title">E-commerce Website</h5>
                         <p class="japanese-card-text">A fully functional e-commerce website built with Laravel and MySQL.</p>
@@ -55,7 +55,7 @@
             </div>
             <div class="col-md-4">
                 <div class="japanese-card">
-                    <img src="{{ asset('images/project2.jpg') }}" class="japanese-card-img" alt="Task Management App">
+                    {{-- <img src="{{ asset('images/project2.jpg') }}" class="japanese-card-img" alt="Task Management App"> --}}
                     <div class="japanese-card-body">
                         <h5 class="japanese-card-title">Task Management App</h5>
                         <p class="japanese-card-text">A simple task management application with user authentication.</p>
@@ -65,7 +65,7 @@
             </div>
             <div class="col-md-4">
                 <div class="japanese-card">
-                    <img src="{{ asset('images/project3.jpg') }}" class="japanese-card-img" alt="Blog Platform">
+                    {{-- <img src="{{ asset('images/project3.jpg') }}" class="japanese-card-img" alt="Blog Platform"> --}}
                     <div class="japanese-card-body">
                         <h5 class="japanese-card-title">Blog Platform</h5>
                         <p class="japanese-card-text">A blog platform with admin panel and user comments.</p>
