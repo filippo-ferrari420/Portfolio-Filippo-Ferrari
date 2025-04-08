@@ -48,7 +48,7 @@
 
 <div class="japanese-divider"></div>
 
-<div class="japanese-section bg-light">
+<div class="japanese-section ">
     <div class="container">
         <div class="section-title">
             <h2>Learning Path</h2>
@@ -82,7 +82,6 @@
                             <li class="mb-3">🔄 Test-Driven Development</li>
                             <li class="mb-3">🔄 Laravel Fortify Authentication</li>
                             <li class="mb-3">🔄 Database Optimization</li>
-                            <li class="mb-3">🔄 JavaScript Frameworks (Vue.js)</li>
                         </ul>
                     </div>
                 </div>
@@ -121,25 +120,12 @@
                         <ul class="list-group list-group-flush">
                             <li class="list-group-item d-flex justify-content-between align-items-center">
                                 <div>
-                                    <h5 class="mb-1">PHP Developer Certification</h5>
-                                    <p class="mb-0 text-muted">Certification Authority</p>
+                                    <h5 class="mb-1">web Developer Certification</h5>
+                                    <p class="mb-0 text-muted">aulab</p>
                                 </div>
-                                <span class="badge bg-primary rounded-pill">2022</span>
+                                <span class="badge bg-primary rounded-pill">2025</span>
                             </li>
-                            <li class="list-group-item d-flex justify-content-between align-items-center">
-                                <div>
-                                    <h5 class="mb-1">Laravel Fundamentals</h5>
-                                    <p class="mb-0 text-muted">Online Learning Platform</p>
-                                </div>
-                                <span class="badge bg-primary rounded-pill">2022</span>
-                            </li>
-                            <li class="list-group-item d-flex justify-content-between align-items-center">
-                                <div>
-                                    <h5 class="mb-1">Web Development Bootcamp</h5>
-                                    <p class="mb-0 text-muted">Coding Academy</p>
-                                </div>
-                                <span class="badge bg-primary rounded-pill">2021</span>
-                            </li>
+                            
                         </ul>
                     </div>
                 </div>

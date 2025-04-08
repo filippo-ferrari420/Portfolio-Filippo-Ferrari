@@ -8,7 +8,7 @@
         
         <div class="row">
             @foreach($projects as $project)
-            <div class="col-md-4 mb-4">
+            <div class="col-md-6 mb-6">
                 <div class="japanese-card h-100">
                     {{-- <img src="{{ asset($project['image']) }}" class="japanese-card-img" alt="{{ $project['title'] }}"> --}}
                     <div class="japanese-card-body">
@@ -24,7 +24,7 @@
                             </div>
                         </div>
                         
-                        <div class="d-flex justify-content-between">
+                        <div class="d-flex justify-content-Around">
                             <a href="{{ $project['github'] }}" class="japanese-btn" target="_blank">GitHub</a>
                             <a href="{{ $project['demo'] }}" class="japanese-btn" target="_blank">Live Demo</a>
                         </div>
@@ -38,7 +38,7 @@
 
 <div class="japanese-divider"></div>
 
-<div class="japanese-section bg-light">
+<div class="japanese-section ">
     <div class="container">
         <div class="section-title">
             <h2>Project Process</h2>

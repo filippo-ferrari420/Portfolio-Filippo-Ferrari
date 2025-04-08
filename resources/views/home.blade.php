@@ -35,7 +35,7 @@
 
 <div class="japanese-divider"></div>
 
-<div class="japanese-section bg-light">
+<div class="japanese-section ">
     <div class="container">
         <div class="section-title">
             <h2>Featured Projects</h2>
@@ -155,7 +155,7 @@
     </div>
 </div>
 
-<div class="japanese-section bg-light">
+<div class="japanese-section ">
     <div class="container">
         <div class="section-title">
             <h2>Get In Touch</h2>

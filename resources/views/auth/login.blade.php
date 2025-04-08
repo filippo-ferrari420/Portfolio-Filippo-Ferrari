@@ -34,7 +34,7 @@
                             @enderror
                         </div>
                         
-                        
+                        <button type="submit" class="japanese-btn">login</button>
                         
                         <div class="mt-4 text-center">
                             <p>Don't have an account? <a href="{{ route('register') }}" class="text-decoration-none">Register</a></p>

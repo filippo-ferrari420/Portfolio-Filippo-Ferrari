@@ -1,0 +1,432 @@
+:root {
+    --japanese-red: #BC002D;
+    --japanese-black: #1A1A1A;
+    --japanese-white: #F7F7F7;
+    --japanese-gray: #D9D9D9;
+    --japanese-accent: #D4AF37; /* Gold color */
+    --japanese-light: #F3F3F3;
+}
+
+body {
+    font-family: 'Noto Sans JP', sans-serif;
+    color: var(--japanese-white); 
+    line-height: 1.7;
+    background: url('https://images.rawpixel.com/image_social_landscape/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvdjEwMTItYmctMDNiLWtzaWxlbjZwLmpwZw.jpg') no-repeat center center fixed;
+    background-size: cover;
+    min-height: 100vh;
+}
+
+.japanese-navbar {
+    background-color: rgba(255, 255, 255, 0.363);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    padding: 1.5rem 0;
+}
+.navbar-brand {
+    text-decoration: none;
+    color: var(--japanese-accent); /* Gold color for brand */
+}
+
+.nav-link {
+    color: var(--japanese-white); /* White text for better visibility */
+    text-decoration: none;
+    font-weight: 500;
+    position: relative;
+    padding-bottom: 5px;
+    transition: color 0.3s;
+}
+
+.nav-link:hover {
+    color: var(--japanese-accent); /* Gold color on hover */
+}
+
+.nav-link::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: var(--japanese-accent); /* Gold underline */
+    transition: width 0.3s;
+}
+.nav-link:hover::after {
+    width: 100%;
+}
+
+.navbar-toggler {
+    border: none;
+    padding: 0.25rem 0.5rem;
+}
+
+.navbar-toggler:focus {
+    box-shadow: none;
+    outline: 2px solid var(--japanese-red);
+}
+
+.nav-item {
+    margin-left: 1.5rem;
+}
+
+@media (max-width: 992px) {
+    .nav-item {
+        margin-left: 0;
+        margin-top: 0.5rem;
+    }
+}
+/* Japanese-style container with paper texture */
+.japanese-container {
+    background-color: rgba(0, 0, 0, 0.8); /* Dark background with transparency */
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid var(--japanese-accent); /* Gold border */
+}
+
+/* Header styling */
+.japanese-header {
+    padding: 1.5rem 0;
+    border-bottom: 1px solid var(--japanese-accent); /* Gold border */
+    background-color: rgba(0, 0, 0, 0.8); /* Dark background */
+    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.2);
+}
+
+.japanese-logo {
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--japanese-accent); /* Gold color for logo */
+    margin: 0;
+    letter-spacing: 0.05em;
+}
+
+.logo-subtitle {
+    display: block;
+    font-size: 0.9rem;
+    color: var(--japanese-white); /* White text */
+    letter-spacing: 0.2em;
+}
+
+.logo a {
+    text-decoration: none;
+}
+
+/* Navigation styling */
+.japanese-nav ul {
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.japanese-nav li {
+    margin-left: 2rem;
+}
+
+.japanese-nav a, .btn-link {
+    color: var(--japanese-white); /* White text */
+    text-decoration: none;
+    font-weight: 500;
+    position: relative;
+    padding-bottom: 5px;
+    transition: color 0.3s;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.japanese-nav a:hover, .btn-link:hover {
+    color: var(--japanese-accent); /* Gold color on hover */
+}
+
+.japanese-nav a::after, .btn-link::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: var(--japanese-accent); /* Gold underline */
+    transition: width 0.3s;
+}
+
+.japanese-nav a:hover::after, .btn-link:hover::after {
+    width: 100%;
+}
+
+/* Main content area */
+.japanese-main {
+    flex: 1;
+    padding: 3rem 0;
+}
+
+/* Hero section */
+.japanese-hero {
+    position: relative;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('/images/texture-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+}
+
+.japanese-hero::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.hero-content {
+    position: relative;
+    z-index: 1;
+    max-width: 800px;
+    padding: 2rem;
+}
+
+.hero-title {
+    font-size: 3.5rem;
+    margin-bottom: 1rem;
+    font-weight: 700;
+}
+
+.hero-subtitle {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+/* Section styling */
+.japanese-section {
+    padding: 5rem 0;
+}
+
+.section-title {
+    text-align: center;
+    margin-bottom: 3rem;
+    position: relative;
+}
+
+.section-title h2 {
+    display: inline-block;
+    font-size: 2.5rem;
+    color: var(--japanese-accent); /* Gold color for section titles */
+    padding-bottom: 1rem;
+    margin-bottom: 1rem;
+}
+
+.section-title h2::after {
+    content: '';
+    position: absolute;
+    width: 80px;
+    height: 3px;
+    background-color: var(--japanese-accent); /* Gold underline */
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.section-subtitle {
+    font-size: 1.2rem;
+    color: var(--japanese-white); /* White text */
+    font-weight: 300;
+}
+
+/* Card styling */
+.japanese-card {
+    background-color: rgba(0, 0, 0, 0.7); /* Dark card background */
+    border-radius: 0;
+    border: 1px solid var(--japanese-accent); /* Gold border */
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s, box-shadow 0.3s;
+    margin-bottom: 2rem;
+    overflow: hidden;
+}
+
+.japanese-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
+    border-color: var(--japanese-red); /* Red border on hover */
+}
+.japanese-card-img {
+    height: 200px;
+    object-fit: cover;
+}
+
+.japanese-card-body {
+    padding: 2rem;
+}
+
+.japanese-card-title {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    color: var(--japanese-accent); /* Gold color for card titles */
+}
+
+.japanese-card-text {
+    color: var(--japanese-white); /* White text */
+    margin-bottom: 1.5rem;
+}
+
+/* Button styling */
+.japanese-btn {
+    display: inline-block;
+    padding: 0.8rem 2rem;
+    background-color: var(--japanese-accent); /* Gold background */
+    color: var(--japanese-black); /* Black text on gold button */
+    border: none;
+    text-decoration: none;
+    font-weight: 500;
+    transition: background-color 0.3s, transform 0.3s;
+    position: relative;
+    overflow: hidden;
+}
+
+.japanese-btn:hover {
+    background-color: var(--japanese-red); /* Red background on hover */
+    color: var(--japanese-white); /* White text on hover */
+    transform: translateY(-2px);
+}
+
+.japanese-btn::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: -100%;
+    background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2), transparent);
+    transition: left 0.5s;
+}
+
+.japanese-btn:hover::after {
+    left: 100%;
+}
+
+/* Skills section */
+.skill-item {
+    margin-bottom: 2rem;
+}
+
+.skill-name {
+    font-weight: 500;
+    margin-bottom: 0.5rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.skill-bar {
+    height: 10px;
+    background-color: var(--japanese-gray);
+    position: relative;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.skill-progress {
+    position: absolute;
+    height: 100%;
+    background-color: var(--japanese-red);
+    left: 0;
+    top: 0;
+    transition: width 1s ease-in-out;
+}
+
+/* Contact form */
+.contact-form {
+    background-color: rgba(0, 0, 0, 0.7); /* Dark background */
+    padding: 3rem;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    border: 1px solid var(--japanese-accent); /* Gold border */
+}
+
+.form-control {
+    border-radius: 0;
+    border: 1px solid var(--japanese-accent); /* Gold border */
+    padding: 0.8rem;
+    margin-bottom: 1.5rem;
+    background-color: rgba(0, 0, 0, 0.5); /* Dark input background */
+    color: var(--japanese-white); /* White text */
+}
+
+.form-control:focus {
+    box-shadow: none;
+    border-color: var(--japanese-red); /* Red border on focus */
+    background-color: rgba(0, 0, 0, 0.7); /* Darker background on focus */
+}
+
+/* Footer styling */
+.japanese-footer {
+    background-color: rgba(0, 0, 0, 0.9); /* Very dark footer */
+    color: var(--japanese-white); /* White text */
+    padding: 3rem 0;
+    border-top: 1px solid var(--japanese-accent); /* Gold border */
+}
+
+.japanese-heading {
+    color: var(--japanese-accent); /* Gold headings */
+    margin-bottom: 1rem;
+}
+
+.social-links {
+    display: flex;
+    justify-content: flex-end;
+    gap: 1.5rem;
+}
+
+.social-link {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.social-link:hover {
+    color: var(--japanese-red);
+}
+
+.copyright {
+    margin-top: 2rem;
+    color: var(--japanese-gray);
+    font-size: 0.9rem;
+}
+
+/* Japanese decorative elements */
+.japanese-divider {
+    height: 30px;
+    background-image: url('/images/japanese-wave.svg');
+    background-repeat: repeat-x;
+    background-size: 30px;
+    margin: 3rem 0;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .japanese-nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .japanese-nav li {
+        margin: 0.5rem 0;
+    }
+    
+    .hero-title {
+        font-size: 2.5rem;
+    }
+    
+    .hero-subtitle {
+        font-size: 1.2rem;
+    }
+    
+    .contact-form {
+        padding: 1.5rem;
+    }
+}

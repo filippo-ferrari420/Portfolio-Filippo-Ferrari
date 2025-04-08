@@ -46,7 +46,7 @@
 
 <div class="japanese-divider"></div>
 
-<div class="japanese-section bg-light">
+<div class="japanese-section ">
     <div class="container">
         <div class="section-title">
             <h2>My Journey</h2>
