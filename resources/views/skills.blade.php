@@ -1,13 +1,13 @@
 <x-main>
 <div class="japanese-section">
     <div class="container">
-        <div class="section-title">
+        <div class="section-title fade-in">
             <h2>My Skills</h2>
             <p class="section-subtitle">技術 (Technical Skills)</p>
         </div>
         
         <div class="row">
-            <div class="col-md-6">
+            <div class="col-md-6 fade-in">
                 <h3 class="mb-4">Backend Development</h3>
                 
                 @foreach($skills as $skill)
@@ -25,7 +25,7 @@
                 @endforeach
             </div>
             
-            <div class="col-md-6">
+            <div class="col-md-6 fade-in">
                 <h3 class="mb-4">Frontend Development</h3>
                 
                 @foreach($skills as $skill)
@@ -50,14 +50,14 @@
 
 <div class="japanese-section ">
     <div class="container">
-        <div class="section-title">
+        <div class="section-title fade-in">
             <h2>Learning Path</h2>
             <p class="section-subtitle">学習経路 (Learning Journey)</p>
         </div>
         
         <div class="row">
             <div class="col-md-4">
-                <div class="japanese-card h-100">
+                <div class="japanese-card h-100 slide-in-left">
                     <div class="japanese-card-body">
                         <h5 class="japanese-card-title">Completed</h5>
                         <ul class="list-unstyled">
@@ -73,7 +73,7 @@
             </div>
             
             <div class="col-md-4">
-                <div class="japanese-card h-100">
+                <div class="japanese-card h-100 slide-in-up">
                     <div class="japanese-card-body">
                         <h5 class="japanese-card-title">In Progress</h5>
                         <ul class="list-unstyled">
@@ -88,7 +88,7 @@
             </div>
             
             <div class="col-md-4">
-                <div class="japanese-card h-100">
+                <div class="japanese-card h-100 slide-in-right">
                     <div class="japanese-card-body">
                         <h5 class="japanese-card-title">Future Goals</h5>
                         <ul class="list-unstyled">
@@ -108,14 +108,14 @@
 
 <div class="japanese-section">
     <div class="container">
-        <div class="section-title">
+        <div class="section-title fade-in">
             <h2>Certifications</h2>
             <p class="section-subtitle">証明書 (Achievements)</p>
         </div>
         
         <div class="row">
             <div class="col-md-6 offset-md-3">
-                <div class="japanese-card">
+                <div class="japanese-card slide-in-up">
                     <div class="japanese-card-body">
                         <ul class="list-group list-group-flush">
                             <li class="list-group-item d-flex justify-content-between align-items-center">

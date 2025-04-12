@@ -3,20 +3,19 @@
 
 <div class="japanese-section">
     <div class="container">
-        <div class="section-title">
+        <div class="section-title fade-in">
             <h2>About Me</h2>
             <p class="section-subtitle">私について (About Me)</p>
         </div>
         
         <div class="row">
-            <div class="col-md-5">
+            <div class="col-md-4 slide-in-left">
                 <img src="{{ asset('images/profile.png') }}" alt="Profile Picture" class="img-fluid mb-4">
             </div>
-            <div class="col-md-7">
+            <div class="japanese-card japanese-card-body col-md-8 slide-in-right">
                 <h3>Backend Developer</h3>
                 <p>
-                    Hello! I'm a passionate backend developer just starting my journey in the world of programming.
-                    I specialize in Laravel development and enjoy building robust, scalable web applications.
+                    Hi! nice to meet you, I'm Filippo. I'm a passionate backend developer and I'm just starting my journey in the programming world. I specialize in Laravel development and I enjoy creating robust and scalable web applications.
                 </p>
                 <p>
                     My approach to coding is inspired by Japanese principles of simplicity, precision, and continuous improvement (改善 - Kaizen).
@@ -48,15 +47,15 @@
 
 <div class="japanese-section ">
     <div class="container">
-        <div class="section-title">
+        <div class="section-title fade-in">
             <h2>My Journey</h2>
             <p class="section-subtitle">私の旅 (My Journey)</p>
         </div>
         
         <div class="row">
             <div class="col-md-4">
-                <div class="japanese-card">
-                    <div class="japanese-card-body">
+                <div class="japanese-card slide-in-left">
+                    <div class="japanese-card-body ">
                         <h5 class="japanese-card-title">Beginning</h5>
                         <p class="japanese-card-text">
                             I started my programming journey with HTML, CSS, and JavaScript, building simple websites and learning the fundamentals of web development.
@@ -65,7 +64,7 @@
                 </div>
             </div>
             <div class="col-md-4">
-                <div class="japanese-card">
+                <div class="japanese-card slide-in-up">
                     <div class="japanese-card-body">
                         <h5 class="japanese-card-title">Growth</h5>
                         <p class="japanese-card-text">
@@ -75,7 +74,7 @@
                 </div>
             </div>
             <div class="col-md-4">
-                <div class="japanese-card">
+                <div class="japanese-card slide-in-right">
                     <div class="japanese-card-body">
                         <h5 class="japanese-card-title">Present</h5>
                             <p class="japanese-card-text">
@@ -90,14 +89,14 @@
     
     <div class="japanese-section">
         <div class="container">
-            <div class="section-title">
+            <div class="section-title fade-in">
                 <h2>My Philosophy</h2>
                 <p class="section-subtitle">私の哲学 (My Philosophy)</p>
             </div>
             
             <div class="row">
-                <div class="col-md-6 offset-md-3">
-                    <div class="philosophy-content text-center">
+                <div class="col-md-6 offset-md-3 slide-in-up">
+                    <div class="philosophy-content japanese-card text-center japanese-card-body"> 
                         <p class="mb-4">
                             I believe in the Japanese concept of <strong>"Kaizen"</strong> (改善) - continuous improvement. 
                             Every day, I strive to become a better developer than I was yesterday.

@@ -1,13 +1,13 @@
 <x-main>
 <div class="japanese-section">
     <div class="container">
-        <div class="section-title">
+        <div class="section-title fade-in">
             <h2>Register</h2>
             <p class="section-subtitle">登録</p>
         </div>
         
         <div class="row">
-            <div class="col-md-6 offset-md-3">
+            <div class="col-md-6 offset-md-3 slide-in-up">
                 <div class="contact-form">
                     <form method="POST" action="{{ route('register') }}">
                         @csrf

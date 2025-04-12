@@ -18,21 +18,14 @@ class ProjectController extends Controller
                 'demo' => '#'
             ],
             [
-                'title' => 'Task Management App',
-                'description' => 'A simple task management application with user authentication.',
+                'title' => 'supercar showroom',
+                'description' => 'supercar showroom website',
                 'image' => 'images/project2.jpg',
-                'technologies' => ['Laravel', 'MySQL', ],
+                'technologies' => ['Laravel', 'MySQL', 'bootstrap' ],
                 'github' => '#',
                 'demo' => '#'
             ],
-            [
-                'title' => 'Blog Platform',
-                'description' => 'A blog platform with admin panel and user comments.',
-                'image' => 'images/project3.jpg',
-                'technologies' => ['Laravel', 'MySQL', 'Bootstrap'],
-                'github' => '#',
-                'demo' => '#'
-            ],
+           
         ];
 
         return view('projects', compact('projects'));

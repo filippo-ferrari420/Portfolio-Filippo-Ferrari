@@ -1,13 +1,13 @@
 <x-main>
 <div class="japanese-section">
     <div class="container">
-        <div class="section-title">
+        <div class="section-title fade-in">
             <h2>Login</h2>
             <p class="section-subtitle">ログイン</p>
         </div>
         
         <div class="row">
-            <div class="col-md-6 offset-md-3">
+            <div class="col-md-6 offset-md-3 slide-in-up">
                 <div class="contact-form">
                     @if(session('status'))
                         <div class="alert alert-success mb-4">

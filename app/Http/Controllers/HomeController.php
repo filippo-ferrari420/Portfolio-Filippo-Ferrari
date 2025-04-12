@@ -2,13 +2,18 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Project;
 use Illuminate\Http\Request;
 
 class HomeController extends Controller
 {
     public function index()
     {
-        return view('home');
+        // Get featured projects for the homepage
+        $projects = Project::where('featured', true)->get();
+        
+        return view('home', compact('projects'));
+    
     }
 
     public function about()
@@ -30,4 +35,5 @@ class HomeController extends Controller
 
         return view('skills', compact('skills'));
     }
+    
 }

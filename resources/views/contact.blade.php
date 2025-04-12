@@ -1,14 +1,16 @@
 <x-main>
 <div class="japanese-section">
     <div class="container">
-        <div class="section-title">
+        <div class="section-title fade-in">
             <h2>Get In Touch</h2>
             <p class="section-subtitle">連絡する (Contact Me)</p>
         </div>
         
         <div class="row">
-            <div class="col-md-6">
-                <div class="contact-info mb-5">
+            
+            <div class="col-md-6 ">
+                <div class="contact-info mb-5 ">
+                    <div class="japanese-card japanese-card-body slide-in-left">
                     <h3 class="mb-4">Contact Information</h3>
                     
                     <div class="d-flex mb-4">
@@ -42,11 +44,12 @@
                     </div>
                     
                    
+                    </div>
                 </div>
             </div>
             
             <div class="col-md-6">
-                <div class="contact-form">
+                <div class="contact-form slide-in-up">
                     @if(session('success'))
                         <div class="alert alert-success mb-4">
                             {{ session('success') }}
